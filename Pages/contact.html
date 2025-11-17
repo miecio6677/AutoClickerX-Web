@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../Styles/ContactStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="Icon/favicon-light.ico" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="Icon/favicon-dark.ico" media="(prefers-color-scheme: light)" />
+</head>
+<body>
+
+<header class="Header">
+    <nav class="Navigation">
+        <a class="HeaderButton" href="../index.html">Home</a>
+        <a class="HeaderButton" href="../Pages/features.html">Features</a>
+        <a class="HeaderButton" href="../Pages/faq.html">FAQ</a>
+        <a class="HeaderButton" href="../Pages/changelog.html">Changelog</a>
+        <a class="HeaderButton" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="MainContent">
+    <section class="ContactSection">
+
+        <h1 class="ContactTitle">Contact</h1>
+
+        <form class="ContactForm">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="email@example.com">
+
+            <label for="website">Twoja strona</label>
+            <input id="website" type="url" placeholder="https://">
+
+            <label for="date">Data kontaktu</label>
+            <input id="date" type="date" min="2025-01-01" max="2025-12-31">
+
+            <label for="priority">Priorytet</label>
+            <input id="priority" type="range" min="0" max="100" value="50">
+
+            <label for="color">Kolor wiadomości</label>
+            <input id="color" type="color" value="#3366ff">
+
+            <label for="message">Wiadomość</label>
+            <textarea id="message" rows="5" placeholder="Napisz wiadomość..." required></textarea>
+
+            <button class="HeroButton" type="submit">Wyślij</button>
+
+        </form>
+
+    </section>
+</main>
+
+<footer class="Footer">
+    <p>© 2025 Twoja Strona</p>
+</footer>
+
+</body>
+</html>
